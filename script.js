@@ -13,3 +13,13 @@ const peticionesApi = (pais) => {
     .then(res => printData(res.data))
     .catch(err => console.log(err))
 }
+
+const printData = (data) => {
+    let respuesta = document.getElementById('show-info')
+    respuesta.innerHTML = `
+        <label>Nombre Oficial: <h3>${data[0].name.official}</h3></label>
+        <label>Nombre: <h3>${data[0].name.common}</h3></label>
+        <label>Capital: <h3>${data[0]['capital']}</h3></label>
+        <label>Región: <h3>${data[0].region}</h3></label>
+    `
+}
