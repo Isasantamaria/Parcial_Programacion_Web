@@ -30,3 +30,14 @@
     border-color: rgb(212, 0, 255);
     background-color: rgb(228, 170, 228);
 }
+
+#country-information{
+    width: 80%;
+    height: 380px;
+    background-color: rgb(255, 178, 204);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
