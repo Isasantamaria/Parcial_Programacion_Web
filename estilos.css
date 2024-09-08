@@ -8,3 +8,14 @@
     font-style:oblique;
     font-size: small;
 }
+
+#input_pais{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffd7fa;
+    border-color: rgb(212, 0, 255);
+}
