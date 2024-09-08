@@ -19,3 +19,14 @@
     background-color:#ffd7fa;
     border-color: rgb(212, 0, 255);
 }
+
+#button_search{
+    width: 40%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: rgb(212, 0, 255);
+    background-color: rgb(228, 170, 228);
+}
